@@ -109,7 +109,83 @@ we'll handle the money</h2>
 </div>
 </div>
 
+{/* clients */}
+<div id='client' className='d-flex px-2 justify-content-center align-items-center'>
+<div style={{width:'100%'}}>
+<section className="primary py-5 ps-3 d-flex flex-lg-row flex-column">
+<div data-aos="fade-up" className=' firstl d-flex flex-column'> 
+  <h2 className='text-white pb-1 pe-1' style={{fontSize:'50px', fontWeight:"650"}}>What People are
+</h2>
+<h2 className='text-white pb-4 pe-1' style={{fontSize:'50px', fontWeight:"650"}}>
+Saying about us</h2>
 
+  </div>
+<div data-aos="fade-up" className='firstr d-flex p-8 align-items-center'>
+    <p className='text-white fs-5 p pb-4'>Everything you need to accept card payments and grow your business anywhere on the planet.</p>
+  </div>
+</section>
+
+<section className='d-flex justify-content-center justify-content-lg-start flex-wrap mb-5'>
+  <div data-aos="fade-up" className=' clients  d-flex justify-content-between flex-column gen-child'>
+  <div className='d-flex flex-column'>
+    <img src='assets/quotes.png' className='quotes' alt='quotes'/>
+    <p className='text-white pa my-4'>Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.</p>
+</div>
+  <div className='d-flex align-items-center'>
+    <img src='assets/jensen.png' className='client-img' alt='clients'/>
+    <h5 className='text-white ms-2' >Herman Jensen</h5>
+      </div>
+    </div>
+    <div data-aos="fade-up" className='clients  d-flex justify-content-between flex-column gen-child'>
+    <div className='d-flex flex-column'>
+      <img src='assets/quotes.png' className='quotes' alt='quotes'/>
+    <p className='text-white pa my-4'>Money makes your life easier. If you're lucky to have it, you're lucky.</p>
+    </div>
+  <div className='d-flex align-items-center'>
+    <img src='assets/jensen.png' className='client-img' alt='clients'/>
+    <h5 className='text-white ms-2' >Steve Mark</h5>
+      </div>
+    </div>
+    <div data-aos="fade-up" className='clients  d-flex justify-content-between flex-column gen-child'>
+    <div className='d-flex flex-column'>
+    <img src='assets/quotes.png' className='quotes' alt='quotes'/>
+    <p className='text-white pa my-4'>It is usually people in the money business, finance, and international trade that are really rich.</p>
+    </div>
+  <div className='d-flex align-items-center'>
+    <img src='assets/jensen.png' className='client-img' alt='clients'/>
+    <h5 className='text-white ms-2'>Ken Gallagher</h5>
+      </div>
+    </div>
+    
+</section>
+<section className='d-flex justify-content-center align-items-center flex-wrap mb-5'>
+<div className="d-flex justify-content-center gen-child align-items-center me-1">
+  <img src='assets/airbnb.png'alt='' className='airbnb'/>
+  </div>
+  <div className="d-flex justify-content-center  gen-child align-items-center me-1">
+  <img src='assets/binance.png'alt='' className='airbnb'/>
+  </div>
+  <div className="d-flex justify-content-center gen-child pb-2 align-items-center me-1">
+  <img src='assets/coinbase.png'alt='' className='airbnb'/>
+  </div>
+  <div className="d-flex justify-content-center  gen-child align-items-center me-1">
+  <img src='assets/dropbox.png'alt='' className='airbnb'/>
+  </div>
+  </section>
+
+<section className='d-flex justify-content-center align-items-center mb-5'>
+<div data-aos="fade-right" className=' firstl start d-flex justify-content-between align-items-center flex-md-row flex-column p-3'> 
+  <div className='d-flex firstl flex-column talign px-md-3 justify-content-between'>
+  <h2 className='text-white pb-4 pe-1' style={{fontSize:'50px', fontWeight:"650"}}>Lets try our service now</h2> <br /><br />
+  <p className='text-white fs-5 p pb-4'>Everything you need to accept card payments and grow your business anywhere on the planet.</p>
+  </div>
+<button className="started-button m-2 py-3">Get Start</button>
+  </div>
+
+</section>
+
+</div>
+</div>
 </>
       )
 }
