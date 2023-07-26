@@ -176,10 +176,10 @@ Saying about us</h2>
 <section className='d-flex justify-content-center align-items-center mb-5'>
 <div data-aos="fade-right" className=' firstl start d-flex justify-content-between align-items-center flex-md-row flex-column p-3'> 
   <div className='d-flex firstl flex-column talign px-md-3 justify-content-between'>
-  <h2 className='text-white pb-4 pe-1' style={{fontSize:'50px', fontWeight:"650"}}>Lets try our service now</h2> <br /><br />
+  <h2 className='text-white pb-4 pe-1' style={{fontSize:'50px', fontWeight:"650"}}>Lets try our service now</h2>
   <p className='text-white fs-5 p pb-4'>Everything you need to accept card payments and grow your business anywhere on the planet.</p>
   </div>
-<button className="started-button m-2 py-3">Get Start</button>
+<button className="started-button m-4 py-3">Get Started</button>
   </div>
 
 </section>
